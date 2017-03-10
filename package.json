@@ -1,0 +1,35 @@
+{
+    "name": "express-perhaps",
+    "version": "1.0.0",
+    "scripts": {
+        "serve": "npm run build && node ./build/main.js",
+        "flow": "flow",
+        "start": "backpack dev",
+        "build": "backpack build"
+    },
+    "engines": {
+        "node": "6.10.0"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "babel-plugin-transform-flow-strip-types": "^6.21.0",
+        "backpack-core": "^0.2.0",
+        "body-parser": "^1.17.1",
+        "cors": "^2.8.1",
+        "express": "^4.15.2",
+        "firebase": "^3.7.1",
+        "flow-bin": "^0.37.4",
+        "js-object-pretty-print": "^0.2.0",
+        "lodash": "^4.17.4",
+        "moment": "^2.17.1",
+        "rx": "^4.1.0"
+    },
+    "devDependencies": {
+        "npm-watch": "^0.1.8",
+        "tap-dot": "^1.0.5",
+        "tap-notify": "^1.0.0",
+        "tap-spec": "^4.1.1",
+        "tape": "^4.6.3",
+        "tape-promise": "^2.0.1"
+    }
+}
